@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:#fff;
+}
+.calculator{
+    border: 3px solid;
+    border-radius: 5px;
+    box-shadow: 5px;
+    width: 185px;
+    height: 300px;
+}
+input{
+    border:3px solid;
+    border-radius: 5px;
+    box-shadow: 5px;
+    width: 165px;
+    position: relative;
+    left:6px;
+    top: 2px;
+    height: 30px;   
+}
+.buttons{
+    position: relative;
+    left:6px;
+    top:8px;
+}
+button{
+    width:40px;
+    height: 63px;
+   border: 3px solid;
+   border-color: grey;
+}
+button:hover{
+    transform: scale(1.1);
+}
+#minus,#plus,#multiplication,#division,#equal{
+    background-color:burlywood;
+}
+#c{
+    background-color: orangered;
+}
